@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoheirkhonyagar/nodejs-streams.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zoheirkhonyagar/nodejs-streams/issues"
+  },
+  "homepage": "https://github.com/zoheirkhonyagar/nodejs-streams#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
